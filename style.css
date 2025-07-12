@@ -1,0 +1,9 @@
+.menubars {
+    width: 35px;
+    height: 5px;
+    margin: 6px;
+    background-color: black;
+}
+#mymenu {
+    display: none;
+}
