@@ -16,6 +16,7 @@ function gebid(id) {
   }
   
   const codevalue = genrandstr(5)
+const l = gebid(list64)
   
   window.onload = function () {
     const code = gebid("code")
@@ -41,3 +42,5 @@ function gebid(id) {
 
     }
 }
+
+l.textContent = "tb:", base64("he is here √˜")
