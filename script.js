@@ -1,3 +1,7 @@
+function base64(txt) {
+    return btoa(txt)
+}
+
 function gebid(id) {
     return document.getElementById(id);
   }
