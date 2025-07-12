@@ -1,6 +1,3 @@
-function base64(txt) {
-    return btoa(txt)
-}
 
 function gebid(id) {
     return document.getElementById(id);
@@ -16,7 +13,6 @@ function gebid(id) {
   }
   
   const codevalue = genrandstr(5)
-const l = gebid(list64)
   
   window.onload = function () {
     const code = gebid("code")
@@ -42,5 +38,3 @@ const l = gebid(list64)
 
     }
 }
-
-l.textContent = "tb:", base64("he is here √˜")
